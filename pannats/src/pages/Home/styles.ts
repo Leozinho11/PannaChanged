@@ -5,10 +5,15 @@ export const HomeContainer = styled.div`
     flex-direction: column;
 `;
 
+export const MainContainer = styled.div`
+
+`;
+
 export const MainTextContainer = styled.p`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    
 
     margin-top: 4.5rem;
     margin-left: 6rem;

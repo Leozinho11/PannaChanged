@@ -1,4 +1,5 @@
 import { HomeContainer, MainTextContainer } from "./styles";
+import FieldsPhoto from './images/Fields.png'
 
 export function Home(){
     return(
