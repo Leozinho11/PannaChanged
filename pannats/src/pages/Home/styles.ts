@@ -6,7 +6,17 @@ export const HomeContainer = styled.div`
 `;
 
 export const MainContainer = styled.div`
+    display: flex;
+    flex-direction: row;
 
+    gap: 14rem;
+`;
+
+export const MainPhotoContainer = styled.div`
+    display: flex;
+
+    height: 45rem;
+    width: 45rem;
 `;
 
 export const MainTextContainer = styled.p`
