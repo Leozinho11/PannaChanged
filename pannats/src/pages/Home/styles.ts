@@ -2,18 +2,20 @@ import styled from "styled-components";
 
 export const HomeContainer = styled.div`
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 `;
 
 export const MainContainer = styled.div`
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
-    gap: 14rem;
+    gap: 5rem;
 `;
 
 export const MainPhotoContainer = styled.div`
     display: flex;
+    flex-direction: row;
+    justify-content: center;
 
     height: 45rem;
     width: 45rem;
@@ -37,4 +39,11 @@ export const MainTextContainer = styled.p`
     h3{
         font-size: 1.5rem;
     }
+`;
+
+export const MainCardsContainer = styled.div`
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    justify-content: center;
+    gap: 1.25rem;
 `;
