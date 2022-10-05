@@ -11,9 +11,10 @@ export function Header() {
 
             <nav>
                 <NavLink to='/'>Home</NavLink>
-                <NavLink to=''>Tabelas</NavLink>
-                <NavLink to=''>Partidas</NavLink>
-                <NavLink to=''>Quadras</NavLink>
+                <NavLink to='/noticias'>Noticias</NavLink>
+                <NavLink to='/tabelas'>Tabelas</NavLink>
+                <NavLink to='/partidas'>Partidas</NavLink>
+                <NavLink to='/quadras'>Quadras</NavLink>
             </nav>
         </HeaderContainer>
     )
