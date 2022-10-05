@@ -14,6 +14,7 @@ a{
 }
 
 body{
+    height: 75rem;
     background: ${props => props.theme["gray-700"]};
     color: ${props => props.theme.white};
     --webkit-font-smoothing: antialiased;

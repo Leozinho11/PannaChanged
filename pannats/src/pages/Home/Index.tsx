@@ -21,28 +21,28 @@ export function Home(){
                     <Card
                     image={TransferCardPhoto} 
                     text="Quer saber das principais noticias do mundo do futebol?"
-                    changeTo="/"
+                    changeTo="/noticias"
                     buttonName="Ver noticias"
                     />
 
                     <Card
                     image={MatchesCardPhoto} 
                     text="Quer saber como estão as pricipais partidas do mundo?"
-                    changeTo="/"
+                    changeTo="/partidas"
                     buttonName="Ver partidas"
                     />
 
                     <Card
                     image={LeaguesCardPhoto} 
                     text="Quer saber qual a posição do seu time na tabela?"
-                    changeTo="/"
+                    changeTo="/tabelas"
                     buttonName="Ver tabelas"
                     />
 
                     <Card
                     image={FieldsCardPhoto} 
                     text="Quer saber qual quadra está disponível para o seu fut?"
-                    changeTo="/"
+                    changeTo="/quadras"
                     buttonName="Ver quadras"
                     />
                 </MainCardsContainer>
