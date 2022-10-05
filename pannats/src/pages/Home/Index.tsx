@@ -1,5 +1,9 @@
 import { HomeContainer, MainCardsContainer, MainContainer, MainPhotoContainer, MainTextContainer, } from "./styles";
-import MainPhoto from './images/MainPhoto.svg'
+import MainPhoto from './images/Main/MainPhoto.svg'
+import TransferCardPhoto from './images/Cards/transferphoto.jpeg';
+import MatchesCardPhoto from './images/Cards/classics.jpg';
+import LeaguesCardPhoto from './images/Cards/competitions.png';
+import FieldsCardPhoto from './images/Cards/Field.jpeg';
 import { FirstButton } from "../../components/First Button/Index";
 import { Card } from "../../components/Cards/Index";
 
@@ -14,28 +18,32 @@ export function Home(){
                 </MainTextContainer>
 
                 <MainCardsContainer>
-                    <Card 
-                    text="Algo"
+                    <Card
+                    image={TransferCardPhoto} 
+                    text="Quer saber das principais noticias do mundo do futebol?"
                     changeTo="/"
-                    buttonName="Clique aqui"
+                    buttonName="Ver noticias"
                     />
 
-                    <Card 
-                    text="Algo"
+                    <Card
+                    image={MatchesCardPhoto} 
+                    text="Quer saber como estão as pricipais partidas do mundo?"
                     changeTo="/"
-                    buttonName="Clique aqui"
+                    buttonName="Ver partidas"
                     />
 
-                    <Card 
-                    text="Algo"
+                    <Card
+                    image={LeaguesCardPhoto} 
+                    text="Quer saber qual a posição do seu time na tabela?"
                     changeTo="/"
-                    buttonName="Clique aqui"
+                    buttonName="Ver tabelas"
                     />
 
-                    <Card 
-                    text="Algo"
+                    <Card
+                    image={FieldsCardPhoto} 
+                    text="Quer saber qual quadra está disponível para o seu fut?"
                     changeTo="/"
-                    buttonName="Clique aqui"
+                    buttonName="Ver quadras"
                     />
                 </MainCardsContainer>
             </MainContainer>

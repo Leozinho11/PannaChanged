@@ -46,4 +46,6 @@ export const MainCardsContainer = styled.div`
     grid-template-columns: repeat(2, 2fr);
     justify-content: center;
     gap: 1.25rem;
+
+    margin-left: 2rem;
 `;
