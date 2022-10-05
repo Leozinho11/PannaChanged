@@ -1,4 +1,4 @@
-import { ButtonContainer } from "./styles";
+import { ButtonContainer, PannaButton } from "./styles";
 
 interface ButtonName{
     name: string
@@ -7,7 +7,7 @@ interface ButtonName{
 export function Button({name}: ButtonName){
     return(
         <ButtonContainer>
-            <button>{name}</button>
+            <PannaButton>{name}</PannaButton>
         </ButtonContainer>
     )
 }

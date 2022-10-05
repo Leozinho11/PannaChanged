@@ -14,7 +14,10 @@ export const PannaButton = styled.button`
     border-radius: 16px;
     
     text-align: center;
+    text-transform: uppercase;
     padding: 1rem;
+
+    transition: background-color 0.2s;
 
     &:hover{
         background-color: transparent;

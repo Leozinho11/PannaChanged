@@ -7,6 +7,7 @@ export const CardsContainer = styled.div`
     justify-content: center;
     box-sizing: content-box;
 
+    gap: 1rem;
 
     width: 22.5rem;
     
@@ -18,5 +19,11 @@ export const CardsContainer = styled.div`
 
     h3{
         line-break: loose;
+    }
+
+    img{
+        height: fit-content;
+        width: 22.5rem;
+        border-radius: 35px;
     }
 `;

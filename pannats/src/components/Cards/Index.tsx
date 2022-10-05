@@ -3,7 +3,7 @@ import { Button } from "../Button/Index";
 import { CardsContainer } from "./Styles";
 
 interface CardsProps{
-    image?: string,
+    image: string,
     text: string,
     changeTo: string,
     buttonName: string

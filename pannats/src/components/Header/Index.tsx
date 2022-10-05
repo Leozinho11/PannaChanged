@@ -13,6 +13,7 @@ export function Header() {
                 <NavLink to='/'>Home</NavLink>
                 <NavLink to=''>Tabelas</NavLink>
                 <NavLink to=''>Partidas</NavLink>
+                <NavLink to=''>Quadras</NavLink>
             </nav>
         </HeaderContainer>
     )
