@@ -21,8 +21,8 @@ export function Home(){
                     <Card
                     image={TransferCardPhoto} 
                     text="Quer saber das principais noticias do mundo do futebol?"
-                    changeTo="/noticias"
-                    buttonName="Ver noticias"
+                    changeTo="/transferencias"
+                    buttonName="Ver transferências"
                     />
 
                     <Card
