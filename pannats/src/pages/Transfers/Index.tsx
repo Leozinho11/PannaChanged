@@ -12,6 +12,7 @@ export function Transfers(){
             PlayerName={"Erling Haaland"} 
             LastTeam={BorussiaDortmundPhoto} 
             Status={"Venda confirmada - Contrato até 2027"} 
+            StatusType={"Venda confirmada"}
             CurrentTeam={ManchesterCityPhoto}            
             />
         </TrasnfersContainer>

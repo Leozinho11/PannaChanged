@@ -33,18 +33,30 @@ export const PlayerNameText = styled.p`
     flex-direction: row;
 `;
 
+const STATUS_COLORS = {
+    yellow: 'yellow-200',
+    green: 'green-200',
+    red: 'red-200'
+} as const
+
+interface StatusProps {
+    statusColor: keyof typeof STATUS_COLORS
+}
+
 export const StatusContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    svg{
-        color: ${props => props.theme["green-200"]};
-    }
 `;
 
 export const StatusText = styled.p`
     display: flex;
     flex-direction: row;
+`;
+
+export const StatusColor = styled.div<StatusProps>`
+    svg{
+        color: ${props => props.theme[STATUS_COLORS[props.statusColor]]};
+    }
 `;
