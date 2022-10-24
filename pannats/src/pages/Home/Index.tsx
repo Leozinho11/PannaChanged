@@ -20,9 +20,9 @@ export function Home(){
                 <MainCardsContainer>
                     <Card
                     image={TransferCardPhoto} 
-                    text="Quer saber das principais noticias do mundo do futebol?"
-                    changeTo="/noticias"
-                    buttonName="Ver noticias"
+                    text="Quer ver quais foram as principais transferências atuais?"
+                    changeTo="/transferencias"
+                    buttonName="Ver transferências"
                     />
 
                     <Card
