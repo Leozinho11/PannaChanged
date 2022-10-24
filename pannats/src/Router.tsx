@@ -4,6 +4,7 @@ import { Home } from './pages/Home/Index';
 import { Matches } from './pages/Matches/Index';
 import { NewsLobby } from './pages/News/NewsLobby/Index';
 import { TablesLobby } from './pages/Tables/Lobby/Index';
+import { Transfers } from './pages/Transfers/Index';
 import { Venues } from './pages/Venues/Index';
 
 export function Router() {
@@ -15,6 +16,7 @@ export function Router() {
             <Route path='/noticias' element={<NewsLobby />} />
             <Route path='/tabelas' element={<TablesLobby />} />
             <Route path='/quadras' element={<Venues />} />
+            <Route path='/transferencias' element={<Transfers />} />
             </Route>
         </Routes>
     )
