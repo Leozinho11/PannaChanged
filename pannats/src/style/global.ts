@@ -11,6 +11,11 @@ a{
     background-color: transparent;
     color: ${props => props.theme.white};
     text-decoration: none;
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
 }
 
 body{
