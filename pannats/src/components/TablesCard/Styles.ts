@@ -10,6 +10,5 @@ export const TableCardContainer = styled.div`
         height: 15.5rem;
         width: 31rem;
         align-content: center;
-        border-radius: 100px;
     }
 `;
