@@ -30,4 +30,10 @@ body, a, button{
     font-weight: 400;
     font-size: 1rem;
 }
+
+    table, th, td{
+        border: 1px solid ${props => props.theme["green-200"]};
+        border-radius: 10px;
+        padding: 0.5rem;
+    }
 `;
