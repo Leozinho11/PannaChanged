@@ -15,7 +15,7 @@ export function TablesLobby(){
                 <TableCard 
                 image={Brasileirao}
                 ButtonName="Brasileirão Série A 2022"
-                DirectedTo=""
+                DirectedTo="/brasileirao"
                 />
 
                 <TableCard 
