@@ -15,4 +15,10 @@ export const BrasileiraoContainer = styled.div`
     td{
         border: none;
     }
+
+    tbody{
+        display: flex;
+        flex-direction: column;
+        
+    }
 `;
