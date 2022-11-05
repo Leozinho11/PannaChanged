@@ -6,4 +6,13 @@ export const BrasileiraoContainer = styled.div`
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
+
+    tr{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    td{
+        border: none;
+    }
 `;
