@@ -6,12 +6,12 @@ export function TableAtributes() {
         <TableHeaderContainer>
             <NullSpace>&nbsp;</NullSpace>
             <NullSpace>&nbsp;</NullSpace>
-            <td>TIME</td>
-            <td>PONTOS</td>
-            <td>V</td>
-            <td>D</td>
-            <td>E</td>
-            <td>SG</td>
+            <th>TIME</th>
+            <th>PONTOS</th>
+            <th>V</th>
+            <th>D</th>
+            <th>E</th>
+            <th>SG</th>
         </TableHeaderContainer>
     )
 }
