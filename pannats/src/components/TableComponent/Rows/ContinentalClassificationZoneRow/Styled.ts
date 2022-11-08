@@ -9,13 +9,16 @@ export const ContinentalClassificationRow = styled.tr`
     position: relative;
     background-color: ${props => props.theme["green-200"]};
 
-    width: 21rem;
+
+    gap: 1rem;
 
     td{
         display: flex;
+        width: 8rem;
         justify-items: center;
         align-items: center;
-        text-align: right;
+        text-align: center;
+        margin-right: 1rem;
     }
 
     img{
