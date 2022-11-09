@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const SerieAContainer = styled.div`
+export const LaLigaContainer = styled.div`
     display: flex;
     flex-direction: column;
 `;
