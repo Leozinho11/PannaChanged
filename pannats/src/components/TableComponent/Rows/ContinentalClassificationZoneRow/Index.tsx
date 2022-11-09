@@ -4,9 +4,9 @@ import { TableProps } from "../../../../reducers/Table/reducer";
 
 
 
-export function ContinentalClassification({defeats, draws, goalsScored, id, image, points, position, teamName, wins}:TableProps){
+export function ContinentalClassification({defeats, draws, goalsScored, image, points, position, teamName, wins}:TableProps){
     return(
-        <ContinentalClassificationRow id={id}>
+        <ContinentalClassificationRow key={position}>
                 <td>{position}</td>
                     <td><img src={image} alt="" /></td>
                     <td>{teamName}</td>

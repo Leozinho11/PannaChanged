@@ -1,5 +1,4 @@
 export interface TableProps{
-    id: string
     position: string
     image: string
     teamName: string
