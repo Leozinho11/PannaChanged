@@ -2,9 +2,9 @@ import { RelegatedZoneRow } from "./Styled";
 
 import { TableProps } from "../../../../reducers/Table/reducer";
 
-export function RelegatedRow({defeats, draws, goalsScored, id, image, points, position, teamName, wins}: TableProps) {
+export function RelegatedRow({defeats, draws, goalsScored, image, points, position, teamName, wins}: TableProps) {
     return(
-        <RelegatedZoneRow id={id}>
+        <RelegatedZoneRow key={position}>
                 <td>{position}</td>
                 <td><img src={image} alt="" /></td>
                 <td>{teamName}</td>

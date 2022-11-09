@@ -2,9 +2,9 @@ import { SubcontinentalRow } from "./Styled";
 
 import { TableProps } from "../../../../reducers/Table/reducer";
 
-export function SubContinentalClassificationRow({defeats, draws, goalsScored, id, image, points, position, teamName, wins}: TableProps){
+export function SubContinentalClassificationRow({defeats, draws, goalsScored, image, points, position, teamName, wins}: TableProps){
     return(
-        <SubcontinentalRow id={id}>
+        <SubcontinentalRow key={position}>
                     <td>{position}</td>
                     <td><img src={image} alt="" /></td>
                     <td>{teamName}</td>
