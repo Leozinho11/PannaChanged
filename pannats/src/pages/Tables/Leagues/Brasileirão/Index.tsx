@@ -37,7 +37,6 @@ export function BrasileiraoTablePage() {
                 <TableAtributes />
                 <tbody>
                     <ContinentalClassification 
-                     id="1"
                      position="1"
                      image={Palmeiras}
                      teamName="Palmeiras"
@@ -49,7 +48,6 @@ export function BrasileiraoTablePage() {
                     />
 
                     <ContinentalClassification 
-                     id="2"
                      position="2"
                      image={Internacional}
                      teamName="Internacional"
@@ -61,7 +59,6 @@ export function BrasileiraoTablePage() {
                     />
 
                     <ContinentalClassification 
-                     id="3"
                      position="3"
                      image={Fluminense}
                      teamName="Fluminense"
@@ -73,7 +70,6 @@ export function BrasileiraoTablePage() {
                     />
 
                     <ContinentalClassification 
-                     id="4"
                      position="4"
                      image={Corinthians}
                      teamName="Corinthians"
@@ -84,8 +80,7 @@ export function BrasileiraoTablePage() {
                      goalsScored="9"
                     />
 
-                    <ContinentalPlayoffClassificationRow 
-                    id="5"
+                    <ContinentalPlayoffClassificationRow                     
                     position="5"
                     image={Flamengo}
                     teamName="Flamengo"
@@ -96,8 +91,7 @@ export function BrasileiraoTablePage() {
                     goalsScored="22"
                     />
 
-                    <ContinentalPlayoffClassificationRow 
-                    id="6"
+                    <ContinentalPlayoffClassificationRow                     
                     position="6"
                     image={AthleticoPR}
                     teamName="Athletico-PR"
@@ -108,8 +102,7 @@ export function BrasileiraoTablePage() {
                     goalsScored="-3"
                     />
 
-                    <SubContinentalClassificationRow 
-                    id="7"
+                    <SubContinentalClassificationRow                     
                     position="7"
                     image={AmericaMG}
                     teamName="América-MG"
@@ -120,8 +113,7 @@ export function BrasileiraoTablePage() {
                     goalsScored="1"
                     />
 
-                    <SubContinentalClassificationRow 
-                    id="8"
+                    <SubContinentalClassificationRow                     
                     position="8"
                     image={AtleticoMG}
                     teamName="Atlético-MG"
@@ -132,8 +124,7 @@ export function BrasileiraoTablePage() {
                     goalsScored="4"
                     />
 
-                    <SubContinentalClassificationRow 
-                    id="9"
+                    <SubContinentalClassificationRow                     
                     position="9"
                     image={SaoPaulo}
                     teamName="São Paulo"
@@ -145,7 +136,6 @@ export function BrasileiraoTablePage() {
                     />
 
                     <SubContinentalClassificationRow 
-                    id="10"
                     position="10"
                     image={Botafogo}
                     teamName="Botafogo"
@@ -157,7 +147,6 @@ export function BrasileiraoTablePage() {
                     />
 
                     <SubContinentalClassificationRow 
-                    id="11"
                     position="11"
                     image={Fortaleza}
                     teamName="Fortaleza"
@@ -169,7 +158,6 @@ export function BrasileiraoTablePage() {
                     />
 
                     <SubContinentalClassificationRow 
-                    id="12"
                     position="12"
                     image={Santos}
                     teamName="Santos"
@@ -181,7 +169,6 @@ export function BrasileiraoTablePage() {
                     />
 
                     <NoChangesZoneRow 
-                    id="13"
                     position="13"
                     image={Goias}
                     teamName="Goiás"
@@ -193,7 +180,6 @@ export function BrasileiraoTablePage() {
                     />
 
                     <NoChangesZoneRow 
-                    id="14"
                     position="14"
                     image={RBBragantino}
                     teamName="RB Bragantino"
@@ -205,7 +191,6 @@ export function BrasileiraoTablePage() {
                     />
 
                     <NoChangesZoneRow 
-                    id="15"
                     position="15"
                     image={Coritiba}
                     teamName="Coritiba"
@@ -217,7 +202,6 @@ export function BrasileiraoTablePage() {
                     />
 
                     <NoChangesZoneRow 
-                    id="16"
                     position="16"
                     image={Cuiaba}
                     teamName="Cuiabá"
@@ -229,7 +213,6 @@ export function BrasileiraoTablePage() {
                     />
 
                     <RelegatedRow 
-                    id="17"
                     position="17"
                     image={AtleticoGO}
                     teamName="Atlético-GO"
@@ -241,7 +224,6 @@ export function BrasileiraoTablePage() {
                     />
 
                     <RelegatedRow 
-                    id="18"
                     position="18"
                     image={Ceara}
                     teamName="Ceará"
@@ -253,7 +235,6 @@ export function BrasileiraoTablePage() {
                     />
 
                     <RelegatedRow 
-                    id="19"
                     position="19"
                     image={Avai}
                     teamName="Avaí"
@@ -265,7 +246,6 @@ export function BrasileiraoTablePage() {
                     />
 
                     <RelegatedRow 
-                    id="20"
                     position="20"
                     image={Juventude}
                     teamName="Juventude"
