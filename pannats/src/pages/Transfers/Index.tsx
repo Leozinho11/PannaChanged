@@ -24,7 +24,13 @@ import LewandowskiPhoto from './images/Players/Lewandowski.svg';
 import LukakuPhoto from './images/Players/Lukaku.svg';
 import ManéPhoto from './images/Players/Mané.svg';
 import SterlingPhoto from './images/Players/Sterling.svg';
-import TchouameniPhoto from './images/Players/Tchouameni.svg';
+import TchouameniPhoto from './images/Players/Tchouameni.svg'
+import AngelRomeroPhoto from './images/Players/AngelRomero.svg';
+import EndrickPhoto from './images/Players/Endrick.svg';
+import PedroRauPhotol from './images/Players/PedroRaul.svg';
+import ScarpaPhoto from './images/Players/Scarpa.svg';
+
+
 
 export function Transfers(){
     return(
