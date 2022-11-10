@@ -36,6 +36,15 @@ export function Transfers(){
     return(
         <TransfersContainer>
             <TransferComponent 
+            PlayerImage={EndrickPhoto} 
+            PlayerName={"Endrick"} 
+            LastTeam={''} 
+            Status={"Venda confirmada - Contrato até 2027"} 
+            StatusType={"Venda confirmada"}
+            CurrentTeam={ManchesterCityPhoto}            
+            />
+
+            <TransferComponent 
             PlayerImage={HaalandPhoto} 
             PlayerName={"Erling Haaland"} 
             LastTeam={BorussiaDortmundPhoto} 
