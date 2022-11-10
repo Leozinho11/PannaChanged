@@ -31,7 +31,7 @@ export function Transfers(){
         <TransfersContainer>
             <TransferComponent 
             PlayerImage={HaalandPhoto} 
-            PlayerName={"Erling Haaland"} 
+            PlayerName={"Erling Haalad"} 
             LastTeam={BorussiaDortmundPhoto} 
             Status={"Venda confirmada - Contrato até 2027"} 
             StatusType={"Venda confirmada"}
