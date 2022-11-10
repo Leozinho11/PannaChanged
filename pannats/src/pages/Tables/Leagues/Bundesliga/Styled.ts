@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const MatchesContainer = styled.div`
+export const BundesligaContainer = styled.div`
     display: flex;
     flex-direction: column;
 `;
