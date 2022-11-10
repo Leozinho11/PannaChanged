@@ -21,31 +21,31 @@ export function TablesLobby(){
                 <TableCard 
                 image={Bundesliga}
                 ButtonName="Campeonato Alemão"
-                DirectedTo=""
+                DirectedTo="/bundesliga"
                 />
 
                 <TableCard 
                 image={PremierLeague}
                 ButtonName="Campeonato Inglês"
-                DirectedTo=""
+                DirectedTo="/premierleague"
                 />
 
                 <TableCard 
                 image={Laliga}
                 ButtonName="Campeonato Espanhol"
-                DirectedTo=""
+                DirectedTo="/laliga"
                 />
 
                 <TableCard 
                 image={Ligue1}
                 ButtonName="Campeonato Francês"
-                DirectedTo=""
+                DirectedTo="/ligue1"
                 />
 
                 <TableCard 
                 image={SerieA}
                 ButtonName="Campeonato Italiano"
-                DirectedTo=""
+                DirectedTo="/seriea"
                 />
 
             </TablesLobbyMainContent>
