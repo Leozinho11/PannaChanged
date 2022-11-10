@@ -1,5 +1,4 @@
 import { TransferComponent } from "../../components/TransferComponent/Index";
-import { TransfersContainer} from "./styled";
 
 import BorussiaDortmundPhoto from './images/Teams/BorussiaDortmund.svg';
 import ManchesterCityPhoto from './images/Teams/ManchesterCity.svg';
@@ -25,10 +24,32 @@ import LukakuPhoto from './images/Players/Lukaku.svg';
 import ManéPhoto from './images/Players/Mané.svg';
 import SterlingPhoto from './images/Players/Sterling.svg';
 import TchouameniPhoto from './images/Players/Tchouameni.svg';
+import PedroRauPhotol from './images/Players/PedroRaul.svg'
+import EndrickPhoto from './images/Players/Endrick.svg'
+
+import { TransfersContainer } from "./styled";
 
 export function Transfers(){
     return(
         <TransfersContainer>
+
+<TransferComponent 
+            PlayerImage={EndrickPhoto} 
+            PlayerName={"Endrick"} 
+            LastTeam={''} 
+            Status={"Venda confirmada - Contrato até 2027"} 
+            StatusType={"Venda confirmada"}
+            CurrentTeam={ManchesterCityPhoto}            
+            />
+
+        <TransferComponent 
+            PlayerImage={PedroRauPhotol} 
+            PlayerName={"Endrick"} 
+            LastTeam={''} 
+            Status={"Venda confirmada - Contrato até 2027"} 
+            StatusType={"Venda confirmada"}
+            CurrentTeam={ManchesterCityPhoto}            
+            />
 
 
             <TransferComponent 
