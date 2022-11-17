@@ -1,5 +1,4 @@
 import { TransferComponent } from "../../components/TransferComponent/Index";
-import { TransfersContainer} from "./styled";
 
 import BorussiaDortmundPhoto from './images/Teams/BorussiaDortmund.svg';
 import ManchesterCityPhoto from './images/Teams/ManchesterCity.svg';
@@ -15,6 +14,8 @@ import RealMadridPhoto from './images/Teams/RealMadrid.svg';
 import MonacoPhoto from './images/Teams/Monaco.svg';
 import JuventusPhoto from './images/Teams/Juventus.svg';
 
+import PalmeirasPhoto from '../Tables/Leagues/Brasileirão/images/Palmeiras.svg';
+
 import HaalandPhoto from './images/Players/Haaland.svg';
 import AntonyPhoto from './images/Players/Antony.svg';
 import CasemiroPhoto from './images/Players/Casemiro.svg';
@@ -25,18 +26,24 @@ import LukakuPhoto from './images/Players/Lukaku.svg';
 import ManéPhoto from './images/Players/Mané.svg';
 import SterlingPhoto from './images/Players/Sterling.svg';
 import TchouameniPhoto from './images/Players/Tchouameni.svg';
+import PedroRaulPhoto from './images/Players/PedroRaul.svg'
+import EndrickPhoto from './images/Players/Endrick.svg'
+
+import { TransfersContainer } from "./styled";
 
 export function Transfers(){
     return(
         <TransfersContainer>
+
             <TransferComponent 
             PlayerImage={EndrickPhoto} 
             PlayerName={"Endrick"} 
-            LastTeam={''} 
-            Status={"Venda confirmada - Contrato até 2027"} 
-            StatusType={"Venda confirmada"}
-            CurrentTeam={ManchesterCityPhoto}            
+            LastTeam={PalmeirasPhoto} 
+            Status={"Rumor"} 
+            StatusType={"Rumor"}
+            CurrentTeam={RealMadridPhoto}            
             />
+
 
             <TransferComponent 
             PlayerImage={HaalandPhoto} 
