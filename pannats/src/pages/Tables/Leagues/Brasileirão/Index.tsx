@@ -6,26 +6,26 @@ import { RelegatedRow } from "../../../../components/TableComponent/Rows/Relegat
 import { TableAtributes } from "../../../../components/TableComponent/THeader/Index";
 import { BrasileiraoContainer } from "./Styled";
 
-import AmericaMG from './images/AmericaMG.svg';
-import AthleticoPR from './images/AthleticoPR.svg';
-import AtleticoGO from './images/AtleticoGO.svg';
-import AtleticoMG from './images/AtleticoMG.svg';
-import Avai from './images/Avai.svg';
-import Botafogo from './images/Botafogo.svg';
-import Ceara from './images/Ceara.svg';
-import Corinthians from './images/Corinthians.svg';
-import Coritiba from './images/Coritiba.svg';
-import Cuiaba from './images/Cuiaba.svg';
-import Flamengo from './images/Flamengo.svg';
-import Fluminense from './images/Fluminense.svg';
-import Fortaleza from './images/Fortaleza.svg';
-import Goias from './images/Goias.svg';
-import Internacional from './images/Internacional.svg';
-import Juventude from './images/Juventude.svg';
-import Palmeiras from './images/Palmeiras.svg';
-import RBBragantino from './images/RBBragantino.svg';
-import Santos from './images/Santos.svg';
-import SaoPaulo from './images/SaoPaulo.svg';
+import AmericaMG from '../../../../assets/Teams/Brasileirao/AmericaMG.svg';
+import AthleticoPR from '../../../../assets/Teams/Brasileirao/AthleticoPR.svg';
+import AtleticoGO from '../../../../assets/Teams/Brasileirao/AtleticoGO.svg';
+import AtleticoMG from '../../../../assets/Teams/Brasileirao/AtleticoMG.svg';
+import Avai from '../../../../assets/Teams/Brasileirao/Avai.svg';
+import Botafogo from '../../../../assets/Teams/Brasileirao/Botafogo.svg';
+import Ceara from '../../../../assets/Teams/Brasileirao/Ceara.svg';
+import Corinthians from '../../../../assets/Teams/Brasileirao/Corinthians.svg';
+import Coritiba from '../../../../assets/Teams/Brasileirao/Coritiba.svg';
+import Cuiaba from '../../../../assets/Teams/Brasileirao/Cuiaba.svg';
+import Flamengo from '../../../../assets/Teams/Brasileirao/Flamengo.svg';
+import Fluminense from '../../../../assets/Teams/Brasileirao/Fluminense.svg';
+import Fortaleza from '../../../../assets/Teams/Brasileirao/Fortaleza.svg';
+import Goias from '../../../../assets/Teams/Brasileirao/Goias.svg';
+import Internacional from '../../../../assets/Teams/Brasileirao/Internacional.svg';
+import Juventude from '../../../../assets/Teams/Brasileirao/Juventude.svg';
+import Palmeiras from '../../../../assets/Teams/Brasileirao/Palmeiras.svg';
+import RBBragantino from '../../../../assets/Teams/Brasileirao/RBBragantino.svg';
+import Santos from '../../../../assets/Teams/Brasileirao/Santos.svg';
+import SaoPaulo from '../../../../assets/Teams/Brasileirao/SaoPaulo.svg';
 
 
 
