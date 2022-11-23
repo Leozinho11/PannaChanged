@@ -1,4 +1,5 @@
 import {Routes, Route} from 'react-router-dom';
+import { DefaultLayout } from './layouts/DefaultLayout/Index';
 import { Home } from './pages/Home/Index';
 import Login from './pages/login/login-page';
 import { Matches } from './pages/Matches/Index';
@@ -16,6 +17,7 @@ import { Venues } from './pages/Venues/Index';
 export function Router() {
     return(
         <Routes>
+            <Route path='/' element={<DefaultLayout />}>
             <Route path='/' element={<Home />}/>
             <Route path='/partidas' element={<Matches />} />
             <Route path='/noticias' element={<NewsLobby />} />
@@ -30,6 +32,7 @@ export function Router() {
             <Route path='/premierleague' element={<PremierLeagueTablePage />} />
             <Route path='/seriea' element={<SerieATablePage />} />
             <Route path='/login' element={<Login/>}/>
+            </Route>
         </Routes>
     )
 }
