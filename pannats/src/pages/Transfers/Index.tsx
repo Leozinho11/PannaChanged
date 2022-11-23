@@ -1,11 +1,11 @@
 import { TransferComponent } from "../../components/TransferComponent/Index";
 
-import BorussiaDortmundPhoto from './images/Teams/BorussiaDortmund.svg';
+import BorussiaDortmundPhoto from '../../assets/Teams/Bundesliga/BorussiaDortmund.svg';
 import ManchesterCityPhoto from './images/Teams/ManchesterCity.svg';
 import ChelseaPhoto from './images/Teams/Chelsea.svg';
 import BarcelonaPhoto from './images/Teams/Barcelona.svg';
 import ManchesterUnitedPhoto from './images/Teams/ManchesterUnited.svg';
-import BayernPhoto from './images/Teams/Bayern.svg';
+import BayernPhoto from '../../assets/Teams/Bundesliga/Bayern.svg';
 import AjaxPhoto from './images/Teams/Ajax.svg';
 import LiverpoolPhoto from './images/Teams/Liverpool.svg';
 import BenficaPhoto from './images/Teams/Benfica.svg';
@@ -14,7 +14,7 @@ import RealMadridPhoto from './images/Teams/RealMadrid.svg';
 import MonacoPhoto from './images/Teams/Monaco.svg';
 import JuventusPhoto from './images/Teams/Juventus.svg';
 
-import PalmeirasPhoto from '../Tables/Leagues/Brasileirão/images/Palmeiras.svg';
+import PalmeirasPhoto from '../../assets/Teams/Brasileirao/Palmeiras.svg';
 
 import HaalandPhoto from './images/Players/Haaland.svg';
 import AntonyPhoto from './images/Players/Antony.svg';
