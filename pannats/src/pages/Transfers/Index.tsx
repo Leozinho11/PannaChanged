@@ -13,12 +13,8 @@ import InternazionalePhoto from './images/Teams/Internazionale.svg';
 import RealMadridPhoto from './images/Teams/RealMadrid.svg';
 import MonacoPhoto from './images/Teams/Monaco.svg';
 import JuventusPhoto from './images/Teams/Juventus.svg';
-
-<<<<<<< HEAD
-import PalmeirasPhoto from '../Tables/Leagues/Brasileirão/images/Palmeiras.svg';
-=======
 import PalmeirasPhoto from '../../assets/Teams/Brasileirao/Palmeiras.svg';
->>>>>>> df245e403f74ab89464d4476b109f10564966f7b
+
 
 import HaalandPhoto from './images/Players/Haaland.svg';
 import AntonyPhoto from './images/Players/Antony.svg';
