@@ -12,6 +12,8 @@ export const MatchesInfoContainer = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    margin-right: 1rem;
     
     img{
         height: 3.5rem;
@@ -44,6 +46,7 @@ export const ScoreContainer = styled.div`
     justify-content: center;
     gap: 1rem;
 
+    margin-left: 1rem;
     width: 3.75rem;
 
     p{
@@ -51,6 +54,8 @@ export const ScoreContainer = styled.div`
         align-items: center;
         justify-content: center;
         text-align: center;
+
+        width: 1rem;
     }
 `;
 

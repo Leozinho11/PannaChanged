@@ -31,6 +31,19 @@ export function Matches(){
             awayTeamName={"Camarões"} 
             awayTeamScore={0} 
             />
+
+            <MatchesComponent
+            competitonImg={FIFAWC} 
+            date={"24/11/2022"} 
+            hour={10} 
+            field={"Al Janoub Stadium"} 
+            homeTeamImg={Switzerland} 
+            homeTeamName={"Suíça"} 
+            homeTeamScore={1} 
+            awayTeamImg={Cameroon} 
+            awayTeamName={"Camarões"} 
+            awayTeamScore={0} 
+            />
         </MatchesContainer>
     )
 }
