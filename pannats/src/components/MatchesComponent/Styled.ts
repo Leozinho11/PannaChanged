@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const MatchesComponentContainer = styled.div`
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-top: 1rem;
 `;
 
@@ -12,6 +14,7 @@ export const MatchesInfoContainer = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
+
     
     img{
         height: 3.5rem;
@@ -51,6 +54,8 @@ export const ScoreContainer = styled.div`
         align-items: center;
         justify-content: center;
         text-align: center;
+
+        width: 1rem;
     }
 `;
 
