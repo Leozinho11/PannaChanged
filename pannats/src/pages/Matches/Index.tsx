@@ -36,12 +36,38 @@ export function Matches(){
             competitonImg={FIFAWC} 
             date={"24/11/2022"} 
             hour={10} 
-            field={"Al Janoub Stadium"} 
-            homeTeamImg={Switzerland} 
-            homeTeamName={"Suíça"} 
-            homeTeamScore={1} 
-            awayTeamImg={Cameroon} 
-            awayTeamName={"Camarões"} 
+            field={"Education City Stadium"} 
+            homeTeamImg={Uruguay} 
+            homeTeamName={"Uruguai"} 
+            homeTeamScore={0} 
+            awayTeamImg={SouthKorea} 
+            awayTeamName={"Coréia do Sul"} 
+            awayTeamScore={0} 
+            />
+
+            <MatchesComponent
+            competitonImg={FIFAWC} 
+            date={"24/11/2022"} 
+            hour={13} 
+            field={"974 Stadium"} 
+            homeTeamImg={Portugal} 
+            homeTeamName={"Portugal"} 
+            homeTeamScore={0} 
+            awayTeamImg={Ghana} 
+            awayTeamName={"Gana"} 
+            awayTeamScore={0} 
+            />
+
+            <MatchesComponent
+            competitonImg={FIFAWC} 
+            date={"24/11/2022"} 
+            hour={16} 
+            field={"Lusail Stadium"} 
+            homeTeamImg={Brazil} 
+            homeTeamName={"Brasil"} 
+            homeTeamScore={0} 
+            awayTeamImg={Serbia} 
+            awayTeamName={"Sérvia"} 
             awayTeamScore={0} 
             />
         </MatchesContainer>

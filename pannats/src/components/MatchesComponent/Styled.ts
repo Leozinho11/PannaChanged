@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const MatchesComponentContainer = styled.div`
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-top: 1rem;
 `;
 
@@ -13,7 +15,6 @@ export const MatchesInfoContainer = styled.div`
     align-items: center;
     text-align: center;
 
-    margin-right: 1rem;
     
     img{
         height: 3.5rem;
@@ -46,7 +47,6 @@ export const ScoreContainer = styled.div`
     justify-content: center;
     gap: 1rem;
 
-    margin-left: 1rem;
     width: 3.75rem;
 
     p{
