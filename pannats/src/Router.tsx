@@ -31,6 +31,7 @@ export function Router() {
             <Route path='/ligue1' element={<Ligue1TablePage />} />
             <Route path='/premierleague' element={<PremierLeagueTablePage />} />
             <Route path='/seriea' element={<SerieATablePage />} />
+            
             <Route path='/login' element={<Login/>}/>
             </Route>
         </Routes>
