@@ -12,6 +12,11 @@ export const MatchesInfoContainer = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
+    
+    img{
+        height: 3.5rem;
+        width: 3.5rem;
+    }
 `;
 
 export const MatchesScoreContainer = styled.div`
@@ -25,10 +30,38 @@ export const MatchesScoreContainer = styled.div`
 export const MatchesScoreInfoContainer = styled.div`
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     gap: 1rem;
+
+    width: 20rem;
+`;
+
+export const ScoreContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    width: 3.75rem;
+
+    p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 `;
 
 export const TeamInfo = styled.div`
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img{
+        height: 2rem;
+        width: 2rem;
+    }
 `;
