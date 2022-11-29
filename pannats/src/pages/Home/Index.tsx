@@ -1,9 +1,9 @@
 import { HomeContainer, MainCardsContainer, MainContainer, MainPhotoContainer, MainTextContainer, } from "./styles";
 import MainPhoto from './images/Main/MainPhoto.svg'
-import TransferCardPhoto from './images/Cards/transferphoto.jpeg';
-import MatchesCardPhoto from './images/Cards/classics.jpg';
-import LeaguesCardPhoto from './images/Cards/competitions.png';
-import FieldsCardPhoto from './images/Cards/Field.jpeg';
+import TransferCardPhoto from './images/Cards/transferphoto.svg';
+import MatchesCardPhoto from './images/Cards/classics.svg';
+import LeaguesCardPhoto from './images/Cards/competitions.svg';
+import FieldsCardPhoto from './images/Cards/Field.svg';
 import { FirstButton } from "../../components/First Button/Index";
 import { Card } from "../../components/Cards/Index";
 
