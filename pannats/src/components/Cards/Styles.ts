@@ -22,8 +22,12 @@ export const CardsContainer = styled.div`
     }
 
     img{
-        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
         width: 22.5rem;
+        height: fit-content;
         border-radius: 35px;
     }
 `;
