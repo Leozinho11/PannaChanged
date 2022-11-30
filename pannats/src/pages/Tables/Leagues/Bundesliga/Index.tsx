@@ -3,8 +3,11 @@ import { ContinentalPlayoffClassificationRow } from "../../../../components/Tabl
 import { NoChangesZoneRow } from "../../../../components/TableComponent/Rows/NoChangesRow/Index";
 import { RelegatedRow } from "../../../../components/TableComponent/Rows/RelegatedRow/Index";
 import { SubContinentalClassificationRow } from "../../../../components/TableComponent/Rows/SubContinentalClassificationRow/Index";
+import { RelegatedPlayoffs } from "../../../../components/TableComponent/Rows/RelegatedPlayoffs/Index";
+import { ConferenceLeagueRow } from "../../../../components/TableComponent/Rows/ConferenceLeague/Index";
 import { TableAtributes } from "../../../../components/TableComponent/THeader/Index";
 import { BundesligaContainer } from "./Styled";
+
 
 import Augsburg from "../../../../assets/Teams/Bundesliga/Augsburg.svg";
 import Bayern from "../../../../assets/Teams/Bundesliga/Bayern.svg";
@@ -24,8 +27,7 @@ import Stuttgart from "../../../../assets/Teams/Bundesliga/Stuttgart.svg";
 import UnionBerlin from "../../../../assets/Teams/Bundesliga/UnionBerlin.svg";
 import WerderBremen from "../../../../assets/Teams/Bundesliga/WerderBremen.svg";
 import Wolfsburg from "../../../../assets/Teams/Bundesliga/Wolfsburg.svg";
-import { RelegatedPlayoffs } from "../../../../components/TableComponent/Rows/RelegatedPlayoffs/Index";
-import { ConferenceLeagueRow } from "../../../../components/TableComponent/Rows/ConferenceLeague/Index";
+
 
 export function BundesligaTablePage(){
     return(
