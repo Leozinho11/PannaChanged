@@ -1,18 +1,18 @@
 import { TransferComponent } from "../../components/TransferComponent/Index";
 
 import BorussiaDortmundPhoto from '../../assets/Teams/Bundesliga/BorussiaDortmund.svg';
-import ManchesterCityPhoto from './images/Teams/ManchesterCity.svg';
-import ChelseaPhoto from './images/Teams/Chelsea.svg';
-import BarcelonaPhoto from './images/Teams/Barcelona.svg';
-import ManchesterUnitedPhoto from './images/Teams/ManchesterUnited.svg';
+import ManchesterCityPhoto from '../../assets/Teams/PremierLeague/ManchesterCity.svg';
+import ChelseaPhoto from '../../assets/Teams/PremierLeague/Chelsea.svg';
+import BarcelonaPhoto from '../../assets/Teams/LaLiga/Barcelona.svg';
+import ManchesterUnitedPhoto from '../../assets/Teams/PremierLeague/ManchesterUnited.svg';
 import BayernPhoto from '../../assets/Teams/Bundesliga/Bayern.svg';
 import AjaxPhoto from './images/Teams/Ajax.svg';
-import LiverpoolPhoto from './images/Teams/Liverpool.svg';
+import LiverpoolPhoto from '../../assets/Teams/PremierLeague/Liverpool.svg';
 import BenficaPhoto from './images/Teams/Benfica.svg';
-import InternazionalePhoto from './images/Teams/Internazionale.svg';
-import RealMadridPhoto from './images/Teams/RealMadrid.svg';
-import MonacoPhoto from './images/Teams/Monaco.svg';
-import JuventusPhoto from './images/Teams/Juventus.svg';
+import InternazionalePhoto from '../../assets/Teams/SerieA/Internazionale.svg';
+import RealMadridPhoto from '../../assets/Teams/LaLiga/RealMadrid.svg';
+import MonacoPhoto from '../../assets/Teams/Ligue1/Monaco.svg';
+import JuventusPhoto from '../../assets/Teams/SerieA/Juventus.svg';
 import PalmeirasPhoto from '../../assets/Teams/Brasileirao/Palmeiras.svg';
 
 
