@@ -24,6 +24,8 @@ import Stuttgart from "../../../../assets/Teams/Bundesliga/Stuttgart.svg";
 import UnionBerlin from "../../../../assets/Teams/Bundesliga/UnionBerlin.svg";
 import WerderBremen from "../../../../assets/Teams/Bundesliga/WerderBremen.svg";
 import Wolfsburg from "../../../../assets/Teams/Bundesliga/Wolfsburg.svg";
+import { RelegatedPlayoffs } from "../../../../components/TableComponent/Rows/RelegatedPlayoffs/Index";
+import { ConferenceLeagueRow } from "../../../../components/TableComponent/Rows/ConferenceLeague/Index";
 
 export function BundesligaTablePage(){
     return(
@@ -75,7 +77,7 @@ export function BundesligaTablePage(){
                      goalsScored="8"
                     />
 
-                    <ContinentalPlayoffClassificationRow                     
+                    <SubContinentalClassificationRow                     
                     position="5"
                     image={UnionBerlin}
                     teamName="Union Berlin"
@@ -86,7 +88,7 @@ export function BundesligaTablePage(){
                     goalsScored="4"
                     />
 
-                    <SubContinentalClassificationRow                     
+                    <ConferenceLeagueRow                     
                     position="6"
                     image={Dortmund}
                     teamName="Dortmund"
@@ -196,7 +198,7 @@ export function BundesligaTablePage(){
                     goalsScored="-3"
                     />
 
-                    <RelegatedRow 
+                    <RelegatedPlayoffs 
                     position="16"
                     image={Stuttgart}
                     teamName="Stuttgart"
