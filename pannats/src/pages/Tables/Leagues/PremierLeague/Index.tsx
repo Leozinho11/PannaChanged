@@ -40,203 +40,203 @@ export function PremierLeagueTablePage(){
                 <tbody>
             <ContinentalClassification 
                 position={"1"} 
-                image={} 
-                teamName={""} 
-                points={""} 
-                wins={""} 
-                defeats={""} 
-                draws={""} 
-                goalsScored={""}/>
+                image={Arsenal} 
+                teamName={"Arsenal"} 
+                points={"37"} 
+                wins={"12"} 
+                defeats={"1"} 
+                draws={"1"} 
+                goalsScored={"22"}/>
 
                 <ContinentalClassification 
-                position={""} 
-                image={} 
-                teamName={""} 
-                points={""} 
-                wins={""} 
-                defeats={""} 
-                draws={""} 
-                goalsScored={""}/>
+                position={"2"} 
+                image={ManchesterCity} 
+                teamName={"Manchester City"} 
+                points={"32"} 
+                wins={"10"} 
+                defeats={"2"} 
+                draws={"2"} 
+                goalsScored={"26"}/>
 
                 <ContinentalClassification 
-                position={""} 
-                image={} 
-                teamName={""} 
-                points={""} 
-                wins={""} 
-                defeats={""} 
-                draws={""} 
-                goalsScored={""}/>
+                position={"3"} 
+                image={Newcastle} 
+                teamName={"Newcastle"} 
+                points={"30"} 
+                wins={"8"} 
+                defeats={"1"} 
+                draws={"6"} 
+                goalsScored={"18"}/>
 
                 <ContinentalClassification 
-                position={""} 
-                image={} 
-                teamName={""} 
-                points={""} 
-                wins={""} 
-                defeats={""} 
-                draws={""} 
-                goalsScored={""}/>
+                position={"4"} 
+                image={Tottenham} 
+                teamName={"Tottenham"} 
+                points={"29"} 
+                wins={"9"} 
+                defeats={"4"} 
+                draws={"2"} 
+                goalsScored={"10"}/>
 
                 <SubContinentalClassificationRow 
-                position={""} 
-                image={} 
-                teamName={""} 
-                points={""} 
-                wins={""} 
-                defeats={""} 
-                draws={""} 
-                goalsScored={""}/>
+                position={"5"} 
+                image={ManchesterUnited} 
+                teamName={"Manchester United"} 
+                points={"26"} 
+                wins={"8"} 
+                defeats={"4"} 
+                draws={"2"} 
+                goalsScored={"0"}/>
 
-                <ConferenceLeagueRow 
-                position={""} 
-                image={} 
-                teamName={""} 
-                points={""} 
-                wins={""} 
-                defeats={""} 
-                draws={""} 
-                goalsScored={""}/>
-
-                <NoChangesZoneRow 
-                position={""} 
-                image={} 
-                teamName={""} 
-                points={""} 
-                wins={""} 
-                defeats={""} 
-                draws={""} 
-                goalsScored={""}/>
+                <NoChangesZoneRow
+                position={"6"} 
+                image={Liverpool} 
+                teamName={"Liverpool"} 
+                points={"22"} 
+                wins={"6"} 
+                defeats={"4"} 
+                draws={"4"} 
+                goalsScored={"11"}/>
 
                 <NoChangesZoneRow 
-                position={""} 
-                image={} 
-                teamName={""} 
-                points={""} 
-                wins={""} 
-                defeats={""} 
-                draws={""} 
-                goalsScored={""}/>
+                position={"7"} 
+                image={Brighton} 
+                teamName={"Brighton"} 
+                points={"21"} 
+                wins={"6"} 
+                defeats={"5"} 
+                draws={"3"} 
+                goalsScored={"4"}/>
 
                 <NoChangesZoneRow 
-                position={""} 
-                image={} 
-                teamName={""} 
-                points={""} 
-                wins={""} 
-                defeats={""} 
-                draws={""} 
-                goalsScored={""}/>
+                position={"8"} 
+                image={Chelsea} 
+                teamName={"Chelsea"} 
+                points={"21"} 
+                wins={"6"} 
+                defeats={"5"} 
+                draws={"3"} 
+                goalsScored={"0"}/>
 
                 <NoChangesZoneRow 
-                position={""} 
-                image={} 
-                teamName={""} 
-                points={""} 
-                wins={""} 
-                defeats={""} 
-                draws={""} 
-                goalsScored={""}/>
+                position={"9"} 
+                image={Fulham} 
+                teamName={"Fulham"} 
+                points={"19"} 
+                wins={"5"} 
+                defeats={"6"} 
+                draws={"4"} 
+                goalsScored={"-2"}/>
 
                 <NoChangesZoneRow 
-                position={""} 
-                image={} 
-                teamName={""} 
-                points={""} 
-                wins={""} 
-                defeats={""} 
-                draws={""} 
-                goalsScored={""}/>
+                position={"10"} 
+                image={Brentford} 
+                teamName={"Brentford"} 
+                points={"19"} 
+                wins={"4"} 
+                defeats={"4"} 
+                draws={"7"} 
+                goalsScored={"-2"}/>
 
                 <NoChangesZoneRow 
-                position={""} 
-                image={} 
-                teamName={""} 
-                points={""} 
-                wins={""} 
-                defeats={""} 
-                draws={""} 
-                goalsScored={""}/>
+                position={"11"} 
+                image={CrystalPalace} 
+                teamName={"Crystal Palace"} 
+                points={"19"} 
+                wins={"5"} 
+                defeats={"5"} 
+                draws={"4"} 
+                goalsScored={"-3"}/>
 
                 <NoChangesZoneRow 
-                position={""} 
-                image={} 
-                teamName={""} 
-                points={""} 
-                wins={""} 
-                defeats={""} 
-                draws={""} 
-                goalsScored={""}/>
+                position={"12"} 
+                image={AstonVilla} 
+                teamName={"Aston Villa"} 
+                points={"18"} 
+                wins={"5"} 
+                defeats={"7"} 
+                draws={"3"} 
+                goalsScored={"-6"}/>
 
                 <NoChangesZoneRow 
-                position={""} 
-                image={} 
-                teamName={""} 
-                points={""} 
-                wins={""} 
-                defeats={""} 
-                draws={""} 
-                goalsScored={""}/>
+                position={"13"} 
+                image={Leicester} 
+                teamName={"Leicester City"} 
+                points={"17"} 
+                wins={"5"} 
+                defeats={"8"} 
+                draws={"2"} 
+                goalsScored={"0"}/>
 
                 <NoChangesZoneRow 
-                position={""} 
-                image={} 
-                teamName={""} 
-                points={""} 
-                wins={""} 
-                defeats={""} 
-                draws={""} 
-                goalsScored={""}/>
+                position={"14"} 
+                image={Bournemouth} 
+                teamName={"Bournemouth"} 
+                points={"16"} 
+                wins={"4"} 
+                defeats={"7"} 
+                draws={"4"} 
+                goalsScored={"-14"}/>
 
                 <NoChangesZoneRow 
-                position={""} 
-                image={} 
-                teamName={""} 
-                points={""} 
-                wins={""} 
-                defeats={""} 
-                draws={""} 
-                goalsScored={""}/>
+                position={"15"} 
+                image={Leeds} 
+                teamName={"Leeds"} 
+                points={"15"} 
+                wins={"4"} 
+                defeats={"7"} 
+                draws={"3"} 
+                goalsScored={"-4"}/>
 
                 <NoChangesZoneRow 
-                position={""} 
-                image={} 
-                teamName={""} 
-                points={""} 
-                wins={""} 
-                defeats={""} 
-                draws={""} 
-                goalsScored={""}/>
+                position={"16"} 
+                image={WestHam} 
+                teamName={"West Ham"} 
+                points={"14"} 
+                wins={"4"} 
+                defeats={"9"} 
+                draws={"2"} 
+                goalsScored={"-5"}/>
+
+                <NoChangesZoneRow 
+                position={"17"} 
+                image={Everton} 
+                teamName={"Everton"} 
+                points={"14"} 
+                wins={"3"} 
+                defeats={"7"} 
+                draws={"5"} 
+                goalsScored={"-6"}/>
 
                 <RelegatedRow 
-                position={""} 
-                image={} 
-                teamName={""} 
-                points={""} 
-                wins={""} 
-                defeats={""} 
-                draws={""} 
-                goalsScored={""}/>
+                position={"18"} 
+                image={NottinghamForest} 
+                teamName={"Nottingham Forest"} 
+                points={"13"} 
+                wins={"3"} 
+                defeats={"8"} 
+                draws={"4"} 
+                goalsScored={"-19"}/>
 
                 <RelegatedRow 
-                position={""} 
-                image={} 
-                teamName={""} 
-                points={""} 
-                wins={""} 
-                defeats={""} 
-                draws={""} 
-                goalsScored={""}/>
+                position={"19"} 
+                image={Southampton} 
+                teamName={"Southampton"} 
+                points={"12"} 
+                wins={"3"} 
+                defeats={"9"} 
+                draws={"3"} 
+                goalsScored={"-14"}/>
 
                 <RelegatedRow 
-                position={""} 
-                image={} 
-                teamName={""} 
-                points={""} 
-                wins={""} 
-                defeats={""} 
-                draws={""} 
-                goalsScored={""}/>
+                position={"20"} 
+                image={Wolves} 
+                teamName={"Wolves"} 
+                points={"10"} 
+                wins={"2"} 
+                defeats={"9"} 
+                draws={"4"} 
+                goalsScored={"-16"}/>
                 </tbody>
                 </table>
         </PremierLeagueContainer>
