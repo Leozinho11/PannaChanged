@@ -10,7 +10,7 @@ export function NewsLobby(){
                 <NewsCard 
                 image={Pele} 
                 text={"Família de Pelé atualiza estado de saúde do Rei do Futebol"} 
-                newsIndex={""}
+                newsIndex={"/familia-atualiza-estado-de-saude-de-pele"}
                 />
             </NewsLobbyMain>
         </NewsContainer>

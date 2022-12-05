@@ -4,6 +4,7 @@ import { Home } from './pages/Home/Index';
 import Login from './pages/login/login-page';
 import { Matches } from './pages/Matches/Index';
 import { NewsLobby } from './pages/News/NewsLobby/Index';
+import { PeleSaudeNews } from './pages/News/pages/familia-atualiza-saude-pelé/Index';
 import { BrasileiraoTablePage } from './pages/Tables/Leagues/Brasileirão/Index';
 import { BundesligaTablePage } from './pages/Tables/Leagues/Bundesliga/Index';
 import { LaLigaTablePage } from './pages/Tables/Leagues/LaLiga/Index';
@@ -33,6 +34,8 @@ export function Router() {
             <Route path='/seriea' element={<SerieATablePage />} />
             
             <Route path='/login' element={<Login/>}/>
+
+            <Route path='/familia-atualiza-estado-de-saude-de-pele' element={<PeleSaudeNews />} />
             </Route>
         </Routes>
     )
