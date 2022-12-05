@@ -5,6 +5,7 @@ import PelePhoto from "../../NewsLobby/images/Pele.svg"
 export function PeleSaudeNews(){
     return(
         <NewsTextContainer>
+            <h1>Família de Pelé atualiza sobre seu estado de saúde.</h1>
             <img src={PelePhoto} alt="" />
             <p>
              Na noite deste domingo, 4 de dezembro, o “Fantástico” exibiu uma entrevista com as filhas de Pelé, Kely e Flávia, e o neto, Arthur. Na tela da Globo, elas atualizaram o estado de saúde do pai e responderam às várias especulações que rondam o futebol ao redor do mundo – principalmente durante a Copa do Catar.
