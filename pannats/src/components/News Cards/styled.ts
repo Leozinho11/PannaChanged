@@ -12,7 +12,13 @@ export const NewsCardContainer = styled.div`
 
     img{
         height: fit-content;
-        width: fit-content;
+        width: 23rem;
         border-radius: 35px;
+    }
+
+    h3, a{
+        color: ${props => props.theme["green-200"]};
+        text-align: center;
+        width: 23rem;
     }
 `;
