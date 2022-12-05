@@ -10,7 +10,8 @@ export const NewsTextContainer = styled.div`
 
 
     p{
-        width: 75rem; 
+        width: 55rem; 
+        font-size: large;
     }
 
     img{
