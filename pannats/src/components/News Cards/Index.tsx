@@ -12,7 +12,7 @@ export function NewsCard({image, text, newsIndex}:NewsCardProps){
         <NewsCardContainer>
             <img src={image} alt="" />
             <NavLink to={newsIndex}>
-                <p>{text}</p>
+                <h3>{text}</h3>
             </NavLink>
         </NewsCardContainer>
     )
