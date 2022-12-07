@@ -24,7 +24,7 @@ export function NewsLobby(){
 
                 <NewsCard 
                 image={Cruzeiro} 
-                text={"Cruzeiro anuncia demissão de seu gerente de futebol."} 
+                text={"Gerente de futebol do Cruzeiro anuncia demissão."} 
                 newsIndex={"/gerente-de-futebol-do-cruzeiro-anuncia-demissao"}                
                 />
 

@@ -9,7 +9,7 @@ export const NewsContainer = styled.div`
 
 export const NewsLobbyMain = styled.div`
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 2rem;

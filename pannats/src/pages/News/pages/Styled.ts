@@ -18,4 +18,9 @@ export const NewsTextContainer = styled.div`
         width: 75rem;
         height: 25rem;
     }
+
+    h1{
+        width: 75rem;
+        text-align: center;
+    }
 `;
