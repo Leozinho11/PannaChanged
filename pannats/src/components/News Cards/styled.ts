@@ -8,7 +8,8 @@ export const NewsCardContainer = styled.div`
     box-sizing: content-box;
     gap: 1rem;
 
-    border: none;
+    border: 5px solid ${props => props.theme["green-200"]};
+    border-radius: 35px;
 
     img{
         height: fit-content;
@@ -20,5 +21,9 @@ export const NewsCardContainer = styled.div`
         color: ${props => props.theme["green-200"]};
         text-align: center;
         width: 23rem;
+    }
+
+    &:hover{
+        background-color: ${props => props.theme["gray-600"]};
     }
 `;

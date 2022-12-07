@@ -10,8 +10,8 @@ interface NewsCardProps{
 export function NewsCard({image, text, newsIndex}:NewsCardProps){
     return(
         <NewsCardContainer>
-            <img src={image} alt="" />
             <NavLink to={newsIndex}>
+            <img src={image} alt="" />
                 <h3>{text}</h3>
             </NavLink>
         </NewsCardContainer>
