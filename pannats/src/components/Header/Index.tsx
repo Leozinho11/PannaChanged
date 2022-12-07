@@ -15,7 +15,7 @@ export function Header() {
                 <NavLink to='/tabelas'>Tabelas</NavLink>
                 <NavLink to='/partidas'>Partidas</NavLink>
                 <NavLink to='/transferencias'>Transferências</NavLink>
-                <NavLink to='/login'>Quadras</NavLink>
+                <NavLink to='/quadras'>Quadras</NavLink>
             </nav>
         </HeaderContainer>
     )
